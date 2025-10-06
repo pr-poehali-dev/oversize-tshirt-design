@@ -39,29 +39,29 @@ const Index = () => {
                 </div>
               </div>
 
-              <div className="relative bg-gradient-to-b from-[#2C7A7B] to-[#1a5657] rounded-xl p-8 min-h-[500px] flex items-center justify-center transition-all duration-300">
+              <div className="relative rounded-xl overflow-hidden transition-all duration-300">
                 <img
                   src="https://cdn.poehali.dev/files/7f4cbc09-9742-4a2c-92fc-a5f206139cb2.jpg"
                   alt="T-shirt mockup"
-                  className="w-full h-auto rounded-lg"
+                  className="w-full h-auto"
                 />
                 
                 {view === 'front' && (
-                  <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-scale-in">
+                  <div className="absolute top-[28%] left-[28%] animate-scale-in">
                     <img
                       src="https://cdn.poehali.dev/files/a65bd6b8-b29c-4b0a-903f-45dce008b1b3.png"
                       alt="Logo chest"
-                      className="w-20 h-20 object-contain drop-shadow-2xl"
+                      className="w-16 h-16 object-contain drop-shadow-lg"
                     />
                   </div>
                 )}
 
                 {view === 'back' && (
-                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-scale-in">
+                  <div className="absolute top-[20%] left-1/2 -translate-x-1/2 animate-scale-in">
                     <img
                       src="https://cdn.poehali.dev/files/a65bd6b8-b29c-4b0a-903f-45dce008b1b3.png"
                       alt="Logo back"
-                      className="w-48 h-48 object-contain drop-shadow-2xl"
+                      className="w-40 h-40 object-contain drop-shadow-lg opacity-90"
                     />
                   </div>
                 )}
