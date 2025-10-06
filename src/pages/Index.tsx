@@ -41,7 +41,7 @@ const Index = () => {
 
               <div className="relative rounded-xl overflow-hidden transition-all duration-300">
                 <img
-                  src={view === 'front' ? "https://cdn.poehali.dev/files/7f4cbc09-9742-4a2c-92fc-a5f206139cb2.jpg" : "https://cdn.poehali.dev/files/c444158c-d4ec-44d5-93e1-cd0804444315.jpg"}
+                  src={view === 'front' ? "https://cdn.poehali.dev/files/7f4cbc09-9742-4a2c-92fc-a5f206139cb2.jpg" : "https://cdn.poehali.dev/files/84d60ddc-1766-4ef9-af50-cb9be045819a.jpg"}
                   alt="T-shirt mockup"
                   className="w-full h-auto"
                 />
@@ -59,7 +59,7 @@ const Index = () => {
                 {view === 'back' && (
                   <div className="absolute top-[24%] left-1/2 -translate-x-1/2 animate-scale-in">
                     <img
-                      src="https://cdn.poehali.dev/files/d30ebb47-3cb8-46ca-92b0-feeb4b4b2e1c.png"
+                      src="https://cdn.poehali.dev/files/24196ad4-933f-4248-9237-18fef19afca4.png"
                       alt="Logo back"
                       className="w-36 h-36 object-contain drop-shadow-lg"
                     />
