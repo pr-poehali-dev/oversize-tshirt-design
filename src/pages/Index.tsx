@@ -47,11 +47,11 @@ const Index = () => {
                 />
                 
                 {view === 'front' && (
-                  <div className="absolute top-[28%] left-[32%] animate-scale-in">
+                  <div className="absolute top-[35%] left-[19%] animate-scale-in">
                     <img
                       src="https://cdn.poehali.dev/files/a65bd6b8-b29c-4b0a-903f-45dce008b1b3.png"
                       alt="Logo chest"
-                      className="w-16 h-16 object-contain drop-shadow-lg"
+                      className="w-12 h-12 object-contain drop-shadow-lg"
                     />
                   </div>
                 )}
