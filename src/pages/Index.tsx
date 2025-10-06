@@ -57,11 +57,11 @@ const Index = () => {
                 )}
 
                 {view === 'back' && (
-                  <div className="absolute top-[20%] left-1/2 -translate-x-1/2 animate-scale-in">
+                  <div className="absolute top-[22%] right-[18%] animate-scale-in">
                     <img
-                      src="https://cdn.poehali.dev/files/a65bd6b8-b29c-4b0a-903f-45dce008b1b3.png"
+                      src="https://cdn.poehali.dev/files/53a020bd-c21a-4791-9bf7-41be3f8d3345.png"
                       alt="Logo back"
-                      className="w-40 h-40 object-contain drop-shadow-lg opacity-90"
+                      className="w-32 h-32 object-contain drop-shadow-lg"
                     />
                   </div>
                 )}
